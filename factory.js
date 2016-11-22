@@ -13,7 +13,8 @@ app.factory('wordsService', function(){
 
 	return {
 		
-		//saves all the text box input
+		//SAVE
+
 		saveName: function(name){
 			userName = name;
 		},
@@ -43,7 +44,8 @@ app.factory('wordsService', function(){
 		},
 
 		
-		//gets all the text box input
+		//GET
+		
 		getName: function(){
 			return userName;
 		},
