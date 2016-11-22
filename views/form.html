@@ -1,6 +1,9 @@
 <body ng-controller="formController">
-			<h1> Let's spill the Tea on Angular with Jazib </h1>
-			<h2> Brought to you by the year of 1992 </h2>
+			<div id = "title"> 
+				<h1> The Kitten's Story </h1>
+				<hr>
+				<h2> A Jazib Website </h2>
+			</div>
 
 
 				
@@ -11,7 +14,7 @@
 
 				<h3> Noun </h3>
 
-				<input type = text ng-model = "noun"/>
+				<input type = text ng-model = "noun" />
 
 				<h3> Noun 2 </h3>
 
@@ -33,7 +36,10 @@
 
 				<input type = text ng-model = "verb2"/>
 
-				<button class="button" ng-click="save()">Submit</button>
+				<!--<button class="button" ng-click="save()">Submit</button> -->
+
+				
+				<button ng-click="save()" class="button button-3d button-box button-jumbo"><i class="fa fa-thumbs-up">Go!</i></button>
 
 				</div>
 

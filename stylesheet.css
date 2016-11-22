@@ -29,22 +29,42 @@
         }
 
 * {
-	font-family: Noto-Sans;
+	font-family: San Francisco;
+}
+
+body {
+	background-image: url("images/background.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
 }
 .nav {
 	text-decoration: none;
 	font-size: 30px;
-	font-family: verdana;
 	text-align: center;
 	color: white;
-	position: center;
+	text-align: center;
 	margin-right: 20px;
+	margin-left: 5px;
+}
 
-	
+span {
+	color: white;
+	font-size: 30px;
+	text-align: center;
+	text-align: center;
+	margin-right: 20px;
+	margin-left: 5px;
+
+
 }
 
 nav {
 	background:linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
+	position: fixed;
+	box-shadow: 10px #888888;
+	z-index: 3;
+	
 }
 
 .em-nail_care {
@@ -73,7 +93,13 @@ h2 {
 	background:linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
 	color: white;
 	text-align: center;
-	padding: 10px;
+	padding: 10px 10px 30px 10px;
+	box-shadow: 10px #888888;
+	margin-bottom: 30px;
+	position: relative;
+    top: 50px;
+    border-width: 10px;
+    
 }
 
 .button {
@@ -81,10 +107,28 @@ h2 {
 	color: grey;
 	font-family: Noto-Sans Bold;
 	position: relative;
+	left: 90px;
 
 }
 
 #view {
 	margin: auto;
-	width: 200px;
+	max-width: 400px;
+	color: white;
+	border: white 3px dashed;
+	padding-left: 4%;
+	padding-right: 2%;
+	font-family: San Francisco Bold;
+	font-size: 30px;
+	position: relative;
+    top: 50px;
+}
+
+#title {
+	position: relative;
+    top: 50px;
+	z-index: -30;
+	max-width: 400px;
+	margin: auto;
+
 }
