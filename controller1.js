@@ -12,4 +12,5 @@ app.controller('formController', ["$scope", "wordsService", function($scope, wor
 		wordsService.saveAdjective2($scope.adjective2);
 		
 		};
+
 }]);
