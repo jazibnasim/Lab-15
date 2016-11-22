@@ -1,24 +1,50 @@
+@font-face {
+        font-family: Noto-Sans;
+        src: url(fonts/NotoSans-regular.ttf);
+}
+
+@font-face {
+        font-family: Noto-Sans Bold;
+        src: url(fonts/NotoSans-bold.ttf);
+    }
+
+@font-face {
+        font-family: Noto-Sans Italic;
+        src: url(fonts/NotoSans-italic.ttf);
+}
+
+@font-face {
+        font-family: Noto-Sans Bold Italic;
+        src: url(fonts/NotoSans-bolditalic.ttf);
+        }
+
+@font-face {
+        font-family: San Francisco;
+        src: url(fonts/SanFrancisco.otf);
+        }
+
+@font-face {
+        font-family: San Francisco Bold;
+        src: url(fonts/SanFrancisco-bold.otf);
+        }
+
+* {
+	font-family: Noto-Sans;
+}
 .nav {
 	text-decoration: none;
 	font-size: 30px;
 	font-family: verdana;
 	text-align: center;
-	background-color: grey;
-	padding: 5px;
-	border: 2px black solid;
 	color: white;
 	position: center;
+	margin-right: 20px;
+
 	
 }
 
-img {
-	width: 300px;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    margin-top: 100px;
-    margin-bottom: auto;
-    border: black 5px solid;
+nav {
+	background:linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
 }
 
 .em-nail_care {
@@ -33,4 +59,32 @@ img {
 
 h1 {
 	text-align: center;
+	font-family: Noto-Sans Bold;
+}
+
+h2 {
+	text-align: center;
+}
+
+#formLook {
+	margin: auto;
+	min-width: 200px;
+	max-width: 400px;
+	background:linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
+	color: white;
+	text-align: center;
+	padding: 10px;
+}
+
+.button {
+	background-color: white;
+	color: grey;
+	font-family: Noto-Sans Bold;
+	position: relative;
+
+}
+
+#view {
+	margin: auto;
+	width: 200px;
 }
