@@ -13,7 +13,7 @@ app.factory('wordsService', function(){
 
 	return {
 		
-		//SAVE
+		//SET
 
 		saveName: function(name){
 			userName = name;
