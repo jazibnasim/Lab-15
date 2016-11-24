@@ -64,17 +64,7 @@ nav {
 	position: fixed;
 	box-shadow: 10px #888888;
 	z-index: 3;
-	
-}
 
-.em-nail_care {
-	width: 500px;
-	height: 400px;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    margin-top: 100px;
-    margin-bottom: auto;
 }
 
 h1 {
@@ -99,8 +89,8 @@ h2 {
     top: 50px;
     margin-bottom: 10%;
     font-size: 20px;
-   
-    
+
+
 }
 
 .button {
@@ -142,5 +132,5 @@ input {
 	width: 40%;
 	padding: 10px 15px;
 	font-size: 15px;
-	
+
 }
